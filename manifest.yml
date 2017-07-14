@@ -1,0 +1,9 @@
+applications:
+- name: kks-demo
+  path: ./target/kksdemo.zip
+  memory: 512M
+  timeout: 180
+  instances: 1
+  buildpack: liberty-for-java
+  host: kks-demo
+  domain: mybluemix.net
